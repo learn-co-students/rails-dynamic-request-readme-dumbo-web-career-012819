@@ -1,0 +1,32 @@
+GET http://localhost:3000/posts
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-02-25T040008.404.html
+
+###
+
+POST http://localhost:3000/posts
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-02-25T040001.404.html
+
+###
+
+POST http://localhost:3000/posts/:id(.:format)
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-02-25T035939.404.html
+
+###
+
+POST http://localhost:3000/url
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-02-25T035906.404.html
+
+###
+
